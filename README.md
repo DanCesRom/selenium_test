@@ -22,7 +22,7 @@ This project automates the testing of a Pokémon TCG web application using Selen
 2. Install dependencies:
 pip install selenium
 
-3.Ensure you have the necessary WebDriver executables:
+3. Ensure you have the necessary WebDriver executables:
 ChromeDriver
 GeckoDriver (Firefox)
 EdgeDriver
@@ -33,12 +33,12 @@ python test_script.py
 
 The script will:
 
-1.Open the web app in each browser.
-2.Log in using the predefined password.
-3.Select filters and add cards.
-4.Navigate to the "Owned" page.
-5.Capture a screenshot of the results.
-6.Clear the database (only in Edge).
+1. Open the web app in each browser.
+2. Log in using the predefined password.
+3. Select filters and add cards.
+4. Navigate to the "Owned" page.
+5. Capture a screenshot of the results.
+6. Clear the database (only in Edge).
 
 **Notes**
 Adjust time.sleep() values if needed for slow-loading pages.
